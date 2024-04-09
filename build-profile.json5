@@ -1,0 +1,48 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "/Users/mrzleo/.ohos/config/openharmony/auto_ohos_default_HelloWorl_com.example.helloworld.cer",
+          "storePassword": "0000001B5F3342B1B0062AF5191DA59B3E35CDC020819465EB11571716B2B34610F2AA55965A9DB151F224",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BB09D60FD13FB747620003C47E2B6FD59F1C7D6A92E09946C75BB75D37CBF0E10694E7F9457B750",
+          "profile": "/Users/mrzleo/.ohos/config/openharmony/auto_ohos_default_HelloWorl_com.example.helloworld.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/mrzleo/.ohos/config/openharmony/auto_ohos_default_HelloWorl_com.example.helloworld.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
