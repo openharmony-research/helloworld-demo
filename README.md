@@ -8,7 +8,7 @@ To download the code, run the following command:
 git clone https://github.com/openharmony-research/helloworld-demo.git
 ```
 
-Open the project in DevEco Studio. Remove the signing configuration and choose to automatically generate a signature. Then, build the HAP file.
+Open the project in DevEco Studio. Then, build the HAP file.
 
 After a successful build, upload the `entry-default-signed.hap` file to the server using commands like `scp`.
 
