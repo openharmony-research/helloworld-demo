@@ -8,7 +8,8 @@ To download the code, run the following command:
 git clone https://github.com/openharmony-research/helloworld-demo.git
 ```
 
-Open the project in DevEco Studio. Then, build the HAP file.
+Open the project in DevEco Studio. Then, build the HAP file. If you build successfully, you will see:
+![build](images/2.png)
 
 After a successful build, upload the `entry-default-signed.hap` file to the server using commands like `scp`.
 
@@ -29,6 +30,9 @@ To launch the HelloWorld program, use the command:
 
 You will see the following screen:
 
-![helloworld](1.png)
+![helloworld](images/1.png)
 
-To exit the program, use the command:```# aa force-stop com.example.helloworld```
+To exit the program, use the command:
+```
+aa force-stop com.example.helloworld
+```
