@@ -28,4 +28,7 @@ To launch the HelloWorld program, use the command:
 ```
 
 You will see the following screen:
-![image][image_0]To exit the program, use the command:```# aa force-stop com.example.helloworld```
+
+![helloworld](1.png)
+
+To exit the program, use the command:```# aa force-stop com.example.helloworld```
