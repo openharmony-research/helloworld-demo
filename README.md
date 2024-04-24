@@ -3,6 +3,8 @@
 
 This is an app built using DevEco Studio.
 
+## Usage
+
 To download the code, run the following command:
 ```
 git clone https://github.com/openharmony-research/helloworld-demo.git
@@ -36,3 +38,9 @@ To exit the program, use the command:
 ```
 aa force-stop com.example.helloworld
 ```
+
+## Video
+
+
+https://github.com/openharmony-research/helloworld-demo/assets/25260092/cca9bd3a-bc6c-4ace-bbbc-fdd1743adb04
+
